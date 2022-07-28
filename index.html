@@ -3,144 +3,60 @@
 <html>
 <head>
     <link rel="icon" href="facebook_icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
     <title> Facebook Log In | Facebook </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <img class="text_image"
-    src="facebook_text_transparent.png">
+    <a href="https://m.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU5MDE2MzkxLCJjYWxsc2l0ZV9pZCI6Nzk2MTcwNzM0NTY5ODY0fQ%3D%3D&locale2=vi_VN&ref=dbl"><img class="text_image"
+    src="facebook_text_transparent.png"></a>
     <input placeholder="  Phone number or email" class="user_name"></input>
     <input type="password" placeholder="  Password" class="password"></input>
     <button class="log_in"><p class="text_in_log">Log In</p></button>
     <div class="fpass">
-        <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0"
-        target="_blank" class="inner_fpass">Forgot password?</a>
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0" class="inner_fpass">
+        Forgot password?</a>
     </div>
     <div class="all">
         <hr class="hr1">
         <p class="or">Or</p>
         <hr class="hr2">
     </div>
-   <button class="bcreate">
-        <a href="https://m.facebook.com/reg/?cid=103&refsrc=deprecated&soft=hjk" target="blank" class="create">
-            Create an account
-        </a>
-   </button>
-    
-    
+    <a href="https://m.facebook.com/reg/?cid=103&refsrc=deprecated&soft=hjk" style="text-decoration: none; display: flex;">
+        <button class="bcreate">Create an account</button>
+    </a>
+   <div class="language">
+        <p style="flex-basis: 50%;">
+            <span style="display: block;"><a style="font-weight: 1000; text-decoration: none; font-size: 12px; color: rgba(0, 0, 0, 0.448); font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">Tiếng Việt</a></span>
+            <span style="display: block;"><a style="text-decoration: none; font-size: 12px; color: rgba(42, 42, 125, 0.723); font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">中文(台灣)</a></span>
+            <span style="display: block;"><a style="text-decoration: none; font-size: 12px; color: rgba(42, 42, 125, 0.723); font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">Español</a></span>
+            <span style="display: block;"><a style="text-decoration: none; font-size: 12px; color: rgba(42, 42, 125, 0.723); font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">Français (France)</a></span>
+        </p>
+
+        <p style="flex-basis: 50%;">
+            <span style="display: block;"><a style="color: rgba(42, 42, 125, 0.723); text-decoration: none; font-size: 12px; font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">English (UK)</a></span>
+            <span style="display: block;"><a style="color: rgba(42, 42, 125, 0.723); text-decoration: none; font-size: 12px; font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">한국어</a></span>
+            <span style="display: block;"><a style="color: rgba(42, 42, 125, 0.723); text-decoration: none; font-size: 12px; font-family: 'Roboto', sans-serif;"
+            href="http://127.0.0.1:5500/index.html">Português (Brasil)</a></span>
+            <a href="https://m.facebook.com/language/?next_uri=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fref%3Ddbl%26fl%26locale2%3Dvi_VN&locale2=vi_VN&ref=dbl"><ion-icon name="add-circle-outline" style="margin-top: 5px; color: rgba(0, 0, 0, 0.561);"></ion-icon></a>
+        </p>
+        
+   </div>
+
+   <p style="text-align: center; font-family: 'Roboto', sans-serif; font-size: 11px; color: rgba(0, 0, 0, 0.534);">Meta © 2022</p>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
     
 </body>
-
-<style>
-
-    body{
-        cursor: pointer;
-    }
-
-    .text_image{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 27px;
-        width: 90px;
-    }
-
-    .user_name{
-        width: 400px;
-        height: 35px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        cursor: auto;
-        border-radius: 5px;
-        border-style: solid;
-        border-width: thin;
-    }
-
-    .password{
-        width: 400px;
-        height: 35px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        cursor: auto;
-        border-radius: 5px;
-        border-style: solid;
-        border-width: thin;
-    }
-
-    .log_in{
-        font-size: 17px;
-        color: white;
-        background-color: rgba(10, 81, 234, 0.672);
-        width: 410px;
-        height: 45px;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        cursor: auto;
-        border-radius: 5px;
-        border-style: solid;
-        border: none;
-    }
-
-    .text_in_log{
-        margin-top: 12.5px;
-    }
-
-    .fpass{
-        color: blue;
-        text-align: center;
-        margin-top: 10px;
-        text-decoration: none;
-    }
-
-    .inner_fpass{
-        text-decoration: none;
-    }
-
-    .or{
-        display: inline;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .hr1{
-        width: 180px;
-        display: inline-block;
-    }
-
-    .hr2{
-        width: 180px;
-        display: inline-block;
-    }
-
-    .create{
-        font-weight: bold;
-        color: white ;
-        text-decoration: none;
-    }
-
-    .bcreate{
-        width: 150px;
-        height: 35px;
-        background-color: rgb(31, 157, 31);
-        border: none;
-        border-radius: 4px;
-        display: block;
-        margin: auto;
-        margin-top: 20px;
-
-    }
-
-    .all{
-        margin-top: 30px;
-        text-align: center;
-    }
-
-</style>
 
 </html>

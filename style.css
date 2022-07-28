@@ -1,0 +1,112 @@
+body{
+    cursor: pointer;
+}
+
+.text_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 27px;
+    width: 90px;
+}
+
+.user_name{
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: auto;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 1px;
+}
+
+.password{
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: auto;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 1px;
+}
+
+.log_in{
+    font-size: 17px;
+    color: white;
+    background-color: rgb(49, 112, 239);
+    width: 410px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: auto;
+    border-radius: 5px;
+    border-style: solid;
+    border: none;
+}
+
+.text_in_log{
+    margin-top: 12.5px;
+}
+
+.fpass{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.inner_fpass{
+    color: rgba(0, 0, 255, 0.839);
+    text-decoration: none;
+}
+
+.or{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hr1{
+    width: 180px;
+    display: inline-block;
+}
+
+.hr2{
+    width: 180px;
+    display: inline-block;
+}
+
+.bcreate{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(31, 157, 31);
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.all{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.language{
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
