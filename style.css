@@ -11,8 +11,9 @@ body{
 }
 
 .user_name{
+    font-size: 15px;
     background-color: rgb(245, 245, 245);
-    width: 400px;
+    width: 385px;
     height: 40px;
     margin-top: 10px;
     margin-left: auto;
@@ -22,11 +23,13 @@ body{
     border-radius: 3px;
     border: none;
     box-shadow: 0 0 1px;
+    padding-left: 15px;
 }
 
 .password{
+    font-size: 15px;
     background-color: rgb(245, 245, 245);
-    width: 400px;
+    width: 385px;
     height: 40px;
     margin-top: 10px;
     margin-left: auto;
@@ -36,6 +39,7 @@ body{
     border-radius: 3px;
     border: none;
     box-shadow: 0 0 1px;
+    padding-left: 15px;
 }
 
 .log_in{
@@ -59,13 +63,15 @@ body{
 }
 
 .fpass{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     text-decoration: none;
 }
 
 .inner_fpass{
-    color: rgba(0, 0, 255, 0.839);
+    color: rgba(14, 14, 229, 0.628);
     text-decoration: none;
 }
 
@@ -96,7 +102,7 @@ body{
     margin-top: 20px;
     font-weight: bold;
     color: white;
-    cursor: pointer;
+    cursor: pointer                 ;
 }
 
 .all{
